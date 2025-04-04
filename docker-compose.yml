@@ -1,0 +1,12 @@
+version: '3'
+services:
+  cwa-mcp-server:
+    container_name: cwa-mcp-server
+    image: node:18
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: node cwa-server.js
+    environment:
+      - CWA_API_KEY=YOUR_CWA_API_KEY_HERE
+    restart: unless-stopped

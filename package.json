@@ -1,0 +1,15 @@
+{
+  "name": "cwa-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server for accessing the Taiwan Central Weather Administration (CWA) API",
+  "license": "MIT",
+  "type": "module",
+  "main": "cwa-server.js",
+  "scripts": {
+    "start": "node cwa-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.0.1",
+    "axios": "^1.8.4"
+  }
+}
