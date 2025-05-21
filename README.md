@@ -2,6 +2,10 @@
 
 一個簡單的模型內容協定 (Model Context Protocol, MCP) 伺服器，可將 Claude Desktop 連接到台灣中央氣象署 (CWA) API 以獲取氣象資料。
 
+<a href="https://glama.ai/mcp/servers/@lincw/cwa-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@lincw/cwa-mcp-server/badge" alt="CWA Server MCP server" />
+</a>
+
 ## 功能特色
 
 - 簡單、輕量的 Node.js 實作
